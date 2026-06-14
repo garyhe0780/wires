@@ -1,0 +1,41 @@
+name: wires
+version: 1.5.0
+
+authors:
+  - gary <garyhe.05@gmail.com>
+
+targets:
+  wires:
+    main: src/wires.cr
+  static_component:
+    main: examples/static_component/app.cr
+  clock:
+    main: examples/clock/app.cr
+  user_card:
+    main: examples/user_card/app.cr
+  dashboard:
+    main: examples/dashboard/app.cr
+  docs_site:
+    main: examples/docs_site/app.cr
+  counter:
+    main: examples/counter/app.cr
+  contact_form:
+    main: examples/contact_form/app.cr
+  targeted:
+    main: examples/targeted/app.cr
+  readonly_stream:
+    main: examples/readonly_stream/app.cr
+  resilient:
+    main: examples/resilient/app.cr
+  layout:
+    main: examples/layout/app.cr
+  navigation:
+    main: examples/navigation/app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: '>= 1.20.2'
+
+license: MIT
